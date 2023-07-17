@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="popup">
+        <form class="popup-content">
+            <span>Add book</span>
+            <div>
+                <label for="Title">Title</label>
+                <input type="text" id="Title" name="Title"  required>
+            </div>
+            
+            <div> 
+                <label for="Author">Author</label>
+                <input type="text" id="Author" name="Author"  required> 
+            </div>
+          
+            <div>  
+                <label for="Pages">Pages</label>
+                 <input type="number" id="Pages" name="Pages" required>
+           </div>
+            
+            <div>
+                <label for="Read">Read ?</label>
+                 <input type="checkbox" id="Read" > 
+             </div>
+           
+            <div  class="submit-btn"><button type="submit" id="submit-book">Submit</button><button id="cancel" type="button">Cancel</button></div>
+            
+        </form>
+    </div>
+    <div class="header">
+        <h1>Library</h1>
+        <button id="new-book">
+            <span>+</span>
+            NEW BOOK
+           </button>
+    </div>
+    <div class="shelf">
+       
+    </div>
+</body>
+</html>
