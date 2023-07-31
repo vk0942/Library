@@ -9,24 +9,33 @@
 </head>
 <body>
     <div class="popup">
-        <form class="popup-content">
+        <form class="popup-content" novalidate>
             <span>Add book</span>
-            <div>
+            <div class="Filed">
                 <label for="Title">Title</label>
+                <div class="kachao">
                 <input type="text" id="Title" name="Title"  required>
+                <span class="Title_error" aria-live="polite"></span>
+                </div>
             </div>
             
-            <div> 
+            <div class="Filed"> 
                 <label for="Author">Author</label>
+                <div class="kachao">
                 <input type="text" id="Author" name="Author"  required> 
+                <span class="Author_error" aria-live="polite"></span>
+                </div>
             </div>
           
-            <div>  
+            <div class="Filed">  
                 <label for="Pages">Pages</label>
+                <div class="kachao">
                  <input type="number" id="Pages" name="Pages" required>
+                 <span class="Pages_error" aria-live="polite"></span>
+                </div>
            </div>
             
-            <div>
+            <div class="Filed">
                 <label for="Read">Read ?</label>
                  <input type="checkbox" id="Read" > 
              </div>
