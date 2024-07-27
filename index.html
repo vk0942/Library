@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div class="main-div">
+        <div class="form">
+            <form id="book-form">
+                <div class="a"><h3>Input Form</h3></div>
+                <div class="b">
+                <label>Book Name </label>
+                <input type="text" id = "book-name" required>
+                </div>
+                <div class="c">
+                <label>Author name </label>
+                <input type="text" id="author-name" required>
+                  </div>
+                  <div class="d">
+                <label>Pages </label>    
+                <input type="number" id="pages-id" required>
+                </div>
+                <div class="e">
+                    <label> Read ? </label>
+                     <input type="checkbox" id="read-id">
+                </div>
+                <div class="f">
+                    <button type="none" id="cancel">Cancel</button>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <header><span>Library</span> <button id="add-book">Add Book +</button></header>
+        <div class="content">
+            <div class="card" >
+                <span class="name">Sample Book</span>
+                <div class="author">by :- Author Name</div>
+                <div class="pages">260 Pages</div>
+                <div class="read"><label for = "read">Read :- </label> 
+                    <input type="checkbox" id="read" name="read">
+                </div>
+                <div class="delete"><button class="delete-btn">Delete Book</button></div>
+            </div>
+            <div class="card" >
+                <span class="name">Karma Yog</span>
+                <div class="author">by :- Swami Vivekananda</div>
+                <div class="pages">260 Pages</div>
+                <div class="read"><label for = "read">Read :- </label> 
+                    <input type="checkbox" id="read" name="read">
+                </div>
+                <div class="delete"><button class="delete-btn">Delete Book</button></div>
+            </div>
+            <div class="card"> 
+                <span class="name">Karma Yog</span>
+                <div class="author">by :- Swami Vivekananda</div>
+                <div class="pages">260 Pages</div>
+                <div class="read"><label for = "read">Read :- </label> 
+                    <input type="checkbox" id="read" name="read">
+                </div>
+                <div class="delete"><button class="delete-btn">Delete Book</button></div>
+
+            </div>
+            <!-- <div class="card"> 
+                <span class="name">Karma Yog</span>
+                <div class="author">by :- Swami Vivekananda</div>
+                <div class="pages">260 Pages</div>
+                <div class="read"><label for = "read">Read :- </label> 
+                    <input type="checkbox" id="read" name="read">
+                </div>
+                <div class="delete"><button class="delete-btn">Delete Book</button></div>
+
+            </div> -->
+        </div>
+      <div class="footer"><a href="https://github.com/vk0942/Library" target="_blank" rel="noopener noreferrer" class="footer-link"><img class="logo"src="./github_logo.png"><span>vk0942</span></a></div>
+
+    </div>
+</body>
+</html>
